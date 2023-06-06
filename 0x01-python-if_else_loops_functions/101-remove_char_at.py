@@ -1,4 +1,7 @@
 #!/usr/bin/python3
 
-output = [chr(i + 32) if i % 2 == 0 else chr(i) for i in range(90, 64, -1)]
-print("{}".format(''.join(output)), end='')
+
+def remove_char_at(str, n):
+    if n < 0:
+        return (str)
+    return (str[:n] + str[n+1:])
