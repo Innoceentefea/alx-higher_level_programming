@@ -1,19 +1,26 @@
 #!/usr/bin/python3
-"""Define an integer summation function
-
-All numbers are casted into integers before summation.
-
-Raises: TypeError: in case that any of the arguments is non-number."""
+"""
+    Add two integers and return its sum
+"""
 
 
 def add_integer(a, b=98):
-    """Return the addition of two numbers a and b.
-    Chacks type of argument and raises TypeError
-    in case of non-number arguments."""
-
+    """Adds 2 integers.
+    Args:
+        a (int): first number
+        b (int): second number or 98 default
+    Returns:
+        Sum of the two integers
+    """
     if not isinstance(a, (int, float)):
         raise TypeError("a must be an integer")
-    elif not isinstance(b, (int, float)):
+
+    if not isinstance(b, (int, float)):
         raise TypeError("b must be an integer")
 
-    return int(a) + int(b)
+    if isinstance(a, float):
+        a = int(a)
+    if isinstance(b, float):
+        b = int(b)
+
+    return (a + b)
