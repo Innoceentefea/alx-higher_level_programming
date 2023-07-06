@@ -3,6 +3,7 @@
 This script defines a function for matrix division.
 """
 
+
 def matrix_divided(matrix, div):
     """
     Divide all elements of a matrix.
