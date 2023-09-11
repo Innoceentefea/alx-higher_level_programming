@@ -1,15 +1,14 @@
-#!/user/bin/node
-const arg = process.argv[2];
-const size = parseInt(arg);
+#!/usr/bin/node
 
-if (!isNaN(size)) {
-  if (size > 0) {
-    for (let i = 0; i < size; i++) {
-      console.log("X".repeat(size));
-    }
-  } else {
-    console.log("Size must be a positive number");
-  }
+const sizeNum = Math.floor(Number(process.argv[2]));
+
+if (isNaN(sizeNum)) {
+  console.log('Missing size');
 } else {
-  console.log("Missing size");
+  for (let x = 0; x < sizeNum; x++) {
+    let row = '';
+    for (let y = 0; y < sizeNum; y++) row += 'X';
+    console.log(row);
+  }
 }
+

@@ -1,6 +1,7 @@
-#!/user/bin/node
-const lines = ["C is fun", "Python is cool", "JavaScript is amazing"];
+#!/usr/bin/node
 
-for (let i = 0; i < lines.length; i++) {
-  console.log(lines[i]);
+const lanGuages = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+
+for (const lang of lanGuages) {
+  console.log(lang);
 }

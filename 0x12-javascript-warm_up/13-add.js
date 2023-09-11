@@ -1,7 +1,2 @@
-#!/user/bin/node
-const add = (a, b) => {
-    return a + b;
-  };
-  
-  module.exports = add;
-  
+#!/usr/bin/node
+exports.add = (a, b) => a + b;
