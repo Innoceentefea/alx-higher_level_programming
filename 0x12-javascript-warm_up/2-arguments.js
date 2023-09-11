@@ -1,4 +1,4 @@
-#!/user/bin/node
+#!/user/bin/env node
 
 // Write a script that prints a message depending of the number of arguments passed:
 // If no arguments are passed to the script, print “No argument”
