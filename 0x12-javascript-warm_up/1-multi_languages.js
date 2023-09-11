@@ -1,4 +1,4 @@
-#!/user/bin/node
+#!/usr/bin/node
 
 // Write a script that prints 3 lines:
 
@@ -7,10 +7,6 @@
 // The third line: “JavaScript is amazing”
 // You must use console.log(...) to print all output
 // You are not allowed to use var
-
-const firstLine = 'C is fun';
-const secondLine = 'Python is cool';
-const thirdLine = 'JavaScript is amazing';
 
 console.log(firstLine);
 console.log(secondLine);
