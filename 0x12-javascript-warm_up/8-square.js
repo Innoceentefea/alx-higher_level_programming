@@ -11,4 +11,3 @@ if (isNaN(sizeNum)) {
     console.log(row);
   }
 }
-
