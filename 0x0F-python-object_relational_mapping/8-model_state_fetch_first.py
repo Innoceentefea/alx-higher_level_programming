@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 """
-Writr a script that prints the first State object from the database hbtn_0e_6_usa
+Writr a script that prints the first State
+object from the database hbtn_0e_6_usa
 """
 import sys
 from model_state import Base, State
