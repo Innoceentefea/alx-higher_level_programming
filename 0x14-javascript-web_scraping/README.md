@@ -1,0 +1,1 @@
+js web scraping process will be to select the HTML elements of interest from the page, retrieve data from them, and convert the scraped data into a more useful format. As you can note, the Bright Data home page contains a lot of data and info in different formats, from text descriptions to images.
